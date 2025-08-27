@@ -52,7 +52,7 @@
 
 ## 在 Cursor/VSCode 中配置 MCP
 
-### 方法一：使用 uv 运行（推荐）
+### 方法一：使用 uvx 运行（推荐）
 
 1. **创建 MCP 配置文件**：
 
@@ -62,13 +62,14 @@
    {
      "mcpServers": {
        "mcp-quiz-generator": {
-         "command": "uv",
-         "args": ["run", "mcp-quiz-generator" , "--output-folder" , "{output-folder-path}"]
+         "command": "uvx",
+         "args": ["mcp-quiz-generator" , "--output-folder" , "{output-folder-path}"]
        }
      }
    }
    ```
    
+
 **注意**：将 `{output-folder-path}` 替换为生成文件的存储路径。
 
 ### 方法二：使用 Python 直接运行
@@ -245,6 +246,10 @@ MIT License
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request！
+
+## Reference
+
+https://github.com/osandadeshan/markdown-quiz-generator
 
 ## 更新日志
 

@@ -58,7 +58,7 @@ A quiz generator server based on Model Context Protocol (MCP) that generates Mar
 
 ## Configuring MCP in Cursor/VSCode
 
-### Method 1: Using uv (Recommended)
+### Method 1: Using uvx (Recommended)
 
 1. **Create MCP configuration file**:
 
@@ -68,8 +68,8 @@ A quiz generator server based on Model Context Protocol (MCP) that generates Mar
    {
      "mcpServers": {
        "mcp-quiz-generator": {
-         "command": "uv",
-         "args": ["run", "mcp-quiz-generator" , "--output-folder" , "{output-folder-path}"]
+         "command": "uvx",
+         "args": ["mcp-quiz-generator" , "--output-folder" , "{output-folder-path}"]
        }
      }
    }
@@ -252,6 +252,10 @@ MIT License
 ## Contributing
 
 Issues and Pull Requests are welcome!
+
+## Reference
+
+https://github.com/osandadeshan/markdown-quiz-generator
 
 ## Changelog
 

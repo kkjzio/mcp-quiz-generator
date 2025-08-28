@@ -264,3 +264,6 @@ https://github.com/osandadeshan/markdown-quiz-generator
 - Support for basic quiz generation functionality
 - Support for HTML and Word format output
 - MCP protocol integration
+
+### v0.1.1
+ - Fix missing files from the app folder in the package

@@ -1,6 +1,6 @@
 [project]
 name = "mcp-quiz-generator"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Model Context Protocol server for generating HTML and Word quiz files from Markdown content"
 readme = "README.md"
 license = {text = "MIT"}
@@ -61,5 +61,5 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/quiz_mcp"]
 
-[tool.hatch.build]
-packages = ["src/quiz_mcp"]
+[tool.hatch.build.targets.wheel.include]
+"src/quiz_mcp/app" = "src/quiz_mcp/app"

@@ -258,3 +258,6 @@ https://github.com/osandadeshan/markdown-quiz-generator
 - 支持基本的测验生成功能
 - 支持 HTML 和 Word 格式输出
 - 集成 MCP 协议
+
+### v0.1.1
+ - 修复打包中缺少app文件夹的文件
